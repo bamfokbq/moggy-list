@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import styles from '../../styles/Ninjas.module.css';
+import styles from '../styles/Ninjas.module.css';
 
 export const getStaticProps = async () => {
   const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
